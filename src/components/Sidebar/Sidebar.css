@@ -1,14 +1,14 @@
 .sidebar-scrollhider {
   overflow: hidden;
-  min-width: var(--sidebar-width);
-  max-width: var(--sidebar-width);
+  min-width: 260px;
+  max-width: 260px;
 }
 
 .sidebar-container {
   background-color: #4a154b;
   color: white;
   border-top: 1px solid #49274b;
-  max-width: calc(var(--sidebar-width + 20px));
+  max-width: 280px;
   width: 280px;
   padding: 0;
   height: calc(100vh - 100px);
@@ -102,7 +102,7 @@
   pointer-events: none;
 }
 
-.disclaimer{
+.disclaimer {
   margin-right: 20px;
   padding: 8px 0;
   font-size: 12px;
@@ -112,5 +112,5 @@
   height: 60px;
   bottom: 0;
   background-color: #4a154b;
-  width: calc(var(--sidebar-width));
+  width: 260px;
 }
