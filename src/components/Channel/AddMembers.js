@@ -79,11 +79,11 @@ function AddMembers(props) {
   }, [keyPress]);
 
   useEffect(() => {
-    const showMemTimer = setInterval(() => {
+    const showMsgTimer = setInterval(() => {
       setResponseMsg("");
     }, 5000);
     return () => {
-      clearInterval(showMemTimer);
+      clearInterval(showMsgTimer);
     };
   }, [responseMsg]);
 
