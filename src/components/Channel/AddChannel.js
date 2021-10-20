@@ -16,11 +16,11 @@ const AddChannel = (props) => {
   const [responseMsg, setResponseMsg] = useState("");
 
   useEffect(() => {
-    const showMsgTimer = setTimeout(() => {
+    const showChTimer = setTimeout(() => {
       setResponseMsg("");
     }, 5000);
     return () => {
-      clearInterval(showMsgTimer);
+      clearInterval(showChTimer);
     };
   }, [responseMsg, errors]);
 
