@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AddChannel from "../Channel/AddChannel";
 import Headers from "../../Helpers/Headers";
 import "./Sidebar.css";

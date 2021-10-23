@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import SearchResult from "./SearchResult";
 import Headers from "../../Helpers/Headers";
 import { useEffect } from "react/cjs/react.development";
