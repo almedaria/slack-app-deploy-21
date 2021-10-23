@@ -18,7 +18,6 @@ import {
 } from "react-icons/ri";
 import SidebarOptions from "./SidebarOptions";
 import DirectMessages from "../DirectMessages/DirectMessages";
-import { useEffect } from "react/cjs/react.development";
 
 function Sidebar(props) {
   const { recentDms, channelDb, setChat, chat } = props;

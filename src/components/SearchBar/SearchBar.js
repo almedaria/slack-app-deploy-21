@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import SearchResult from "./SearchResult";
 import Headers from "../../Helpers/Headers";
-import { useEffect } from "react/cjs/react.development";
 import * as UserAPI from "../../UserAPI";
 import { BiSearch } from "react-icons/bi";
 import MsgPrompt from "../MsgPrompt/MsgPrompt";
